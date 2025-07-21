@@ -1,0 +1,156 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  background: #9f83e1;
+  color: white;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.nav-links a {
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  transition: background 0.3s;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+  background: #fff;
+  color: #9f83e1;
+  font-weight: bold;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout {
+  text-decoration: none;
+  color: white;
+}
+
+.settings-btn {
+  background: #1a1a1a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 30px;
+  background: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.header button {
+  background: #1a1a1a;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-left: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.task-status {
+  margin-top: 40px;
+}
+
+.task-status h2 {
+  margin-bottom: 20px;
+}
+
+.status-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: #e1e1e1;
+  padding: 20px;
+  border-radius: 15px;
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.purple {
+  background: #a259ff;
+}
+
+.green {
+  background: #28a745;
+}
+
+.orange {
+  background: #ff9800;
+}
+
+.pink {
+  background: #e91e63;
+}
