@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Owllist Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="profile">
+        <img src="https://via.placeholder.com/60" alt="Profile" class="avatar" />
+        <h3>Suvekshya Adhikari</h3>
+        <p>adhikarisuv88@gmail.com</p>
+      </div>
+      <nav class="nav-links">
+        <a href="#" class="active">Dashboard</a>
+        <a href="#">My Day</a>
+        <a href="#">Important</a>
+        <a href="#">Planned</a>
+        <a href="#">Assigned to me</a>
+        <a href="#">Tasks</a>
+      </nav>
+      <div class="bottom-nav">
+        <a href="#" class="logout">Logout</a>
+        <button class="settings-btn">⚙️</button>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <header class="header">
+        <h1>Dashboard</h1>
+        <div class="header-right">
+          <input type="text" placeholder="Search your task here..." />
+          <button>🔍</button>
+          <button>🔔</button>
+          <button>📅</button>
+        </div>
+      </header>
+
+      <!-- Task Status Cards -->
+      <section class="task-status">
+        <h2>📋 Task Status</h2>
+        <div class="status-cards">
+          <div class="card">
+            <span class="dot purple"></span>
+            <p>Total Task</p>
+          </div>
+          <div class="card">
+            <span class="dot green"></span>
+            <p>Completed Task</p>
+          </div>
+          <div class="card">
+            <span class="dot orange"></span>
+            <p>Incomplete Task</p>
+          </div>
+          <div class="card">
+            <span class="dot pink"></span>
+            <p>Under Review Task</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
